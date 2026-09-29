@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# 数据抓取原始缓存（体积大，不进仓库；data/models.json 产物进仓库）
+data/_raw-*
+.DS_Store

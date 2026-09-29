@@ -1,0 +1,278 @@
+@import "tailwindcss";
+
+/* Fusion Pixel 12px proportional（SIL OFL 1.1）——TakWolf/fusion-pixel-font */
+@font-face {
+  font-family: "Fusion Pixel";
+  src: url("/fonts/fusion-pixel-12px-zh_hans.woff2") format("woff2");
+  font-display: swap;
+}
+
+@theme {
+  /* 明亮田园主题：奶油面板 + 棕色文字 + 木纹顶栏（参考田园生活风截图） */
+  --color-ink: #2e2018; /* 深木色：顶栏/页脚底 */
+  --color-panel: #fdf3dc; /* 奶油面板 */
+  --color-panel2: #f0e2c0; /* 面板次级/凹槽 */
+  --color-paper: #5a4230; /* 正文棕色 */
+  --color-dim: #96795c; /* 次要文字 */
+  --color-gold: #b8720a; /* 强调金（奶油底上可读） */
+  --color-quest: #1f8a7d; /* 青绿（开源标记） */
+  --color-blood: #c0392b; /* 恶龙红 */
+  --font-pixel: "Fusion Pixel", "Courier New", ui-monospace, monospace;
+}
+
+html {
+  background: #0b0b18;
+  image-rendering: pixelated;
+}
+
+body {
+  background: transparent;
+  color: var(--color-paper);
+  font-family: var(--font-pixel);
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: none;
+}
+
+/* ── 全站场景层：贯穿全页的红毯走道 + 柱廊 + 大理石地面 ─────────
+   不用平铺贴砖：所有宽度都以 calc(50% ± Npx) 锁定在内容列正下方，
+   层本身 absolute inset-0 跟随页面滚动——红毯从王座直通页脚，滚动不断裂。 */
+.scene-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    /* 立柱右列：28×112 分段柱（柱头/柱身/柱基/留空），repeat-y */
+    linear-gradient(
+      180deg,
+      transparent 0 6px,
+      #b8a888 6px 10px,
+      #e8dcb8 10px 14px,
+      #cfc4a8 14px 84px,
+      #b8a888 84px 88px,
+      #8a7c60 88px 94px,
+      transparent 94px 112px
+    ),
+    /* 立柱左列 */
+    linear-gradient(
+      180deg,
+      transparent 0 6px,
+      #b8a888 6px 10px,
+      #e8dcb8 10px 14px,
+      #cfc4a8 14px 84px,
+      #b8a888 84px 88px,
+      #8a7c60 88px 94px,
+      transparent 94px 112px
+    ),
+    /* 柱身明暗棱（右列，与柱段同尺寸同位置） */
+    linear-gradient(
+      90deg,
+      transparent 0 4px,
+      #e8e0c8 4px 8px,
+      transparent 8px 17px,
+      #a89a7c 17px 22px,
+      #8a7c60 22px 24px,
+      transparent 24px 28px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0 4px,
+      #e8e0c8 4px 8px,
+      transparent 8px 17px,
+      #a89a7c 17px 22px,
+      #8a7c60 22px 24px,
+      transparent 24px 28px
+    ),
+    /* 红毯：纯色毯面 + 金边 + 暗边（无渐变过渡） */
+    linear-gradient(
+      90deg,
+      transparent calc(50% - 600px),
+      #7a2020 calc(50% - 600px),
+      #d8a848 calc(50% - 592px),
+      #a03030 calc(50% - 580px),
+      #a03030 calc(50% + 580px),
+      #d8a848 calc(50% + 592px),
+      #7a2020 calc(50% + 600px),
+      transparent calc(50% + 600px)
+    ),
+    /* 地砖缝（横竖） */
+    repeating-linear-gradient(0deg, transparent 0 30px, #2c2938 30px 32px),
+    repeating-linear-gradient(90deg, transparent 0 30px, #2c2938 30px 32px),
+    /* 大理石棋盘 */
+    repeating-conic-gradient(#3a3648 0% 25%, #423e52 0% 50%);
+  background-size:
+    28px 112px,
+    28px 112px,
+    28px 112px,
+    28px 112px,
+    100% 100%,
+    32px 32px,
+    32px 32px,
+    32px 32px;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y, no-repeat, repeat, repeat, repeat;
+  background-position:
+    left calc(50% + 622px) top 0,
+    left calc(50% - 650px) top 0,
+    left calc(50% + 622px) top 0,
+    left calc(50% - 650px) top 0,
+    center top,
+    left top,
+    left top,
+    left top;
+}
+
+/* ── 经典 JRPG 窗口：奶油面板 + 棕色双层描边 ─────────────── */
+.rpg-window {
+  background: var(--color-panel);
+  border: 3px solid #8a6844;
+  border-radius: 4px;
+  box-shadow:
+    0 0 0 3px var(--color-panel),
+    0 0 0 5px #c9ab7c,
+    0 6px 0 5px rgba(90, 66, 48, 0.28);
+  padding: 1rem;
+}
+
+.rpg-window--gold {
+  border-color: #b8720a;
+}
+.rpg-window--dragon {
+  border-color: var(--color-blood);
+  box-shadow:
+    0 0 0 3px #241a2e,
+    0 0 0 5px #6e2020,
+    0 0 24px rgba(224, 48, 48, 0.35),
+    0 6px 0 5px rgba(0, 0, 0, 0.45);
+}
+
+/* ── 命令菜单按钮 ─────────────────────────────────── */
+.rpg-btn {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border: 2px solid #8a6844;
+  border-radius: 3px;
+  background: var(--color-panel);
+  color: var(--color-paper);
+  transition: none;
+  cursor: pointer;
+}
+.rpg-btn:hover {
+  background: #ffe9b8;
+  border-color: #b8720a;
+  color: #7a5200;
+}
+.rpg-btn--active {
+  background: #f8c848;
+  border-color: #8a5f10;
+  color: #5a3c00;
+}
+
+/* ── 能力条 ────────────────────────────────────── */
+.rpg-bar {
+  position: relative;
+  height: 12px;
+  background: #e8dcc4;
+  border: 2px solid #b39b74;
+  overflow: hidden;
+}
+.rpg-bar__fill {
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.35) 0 2px,
+    transparent 2px 8px
+  );
+}
+.rpg-bar__unknown::after {
+  content: "？？？";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: var(--color-dim);
+}
+
+/* ── 像素形象 ───────────────────────────────────── */
+.pixel-sprite svg {
+  image-rendering: pixelated;
+  display: block;
+}
+
+/* ── 打字机光标 ─────────────────────────────────── */
+.typewriter__cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  background: var(--color-paper);
+  vertical-align: text-bottom;
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-gold);
+}
+
+/* ── 恶龙呼吸动效：缓慢吸气隆起 + 轻微起伏 ─────────────────── */
+@keyframes dragon-breathe {
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateY(-2px) scaleY(1.05);
+  }
+}
+.dragon-breathe {
+  transform-origin: 50% 100%;
+  animation: dragon-breathe 3.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .dragon-breathe {
+    animation: none;
+  }
+}
+
+/* ── 魔王城夜景（参考 16-bit 露营场景的夜空氛围）────────── */
+.scene-night {
+  position: relative;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(248, 240, 200, 0.16) 0 7px, transparent 8px),
+    radial-gradient(circle at 12% 22%, #cfd3ff 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 30% 10%, #aab2e8 0 1px, transparent 2px),
+    radial-gradient(circle at 55% 16%, #cfd3ff 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 30%, #aab2e8 0 1px, transparent 2px),
+    radial-gradient(circle at 92% 42%, #cfd3ff 0 1px, transparent 2px),
+    radial-gradient(circle at 22% 34%, #aab2e8 0 1px, transparent 2px),
+    radial-gradient(circle at 45% 38%, #cfd3ff 0 1px, transparent 2px),
+    radial-gradient(ellipse at 50% 120%, rgba(123, 224, 214, 0.12) 0 40%, transparent 70%),
+    linear-gradient(180deg, #12122b 0%, #1a1a3e 60%, #101024 100%);
+}
+.scene-night::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 10px;
+  background: repeating-linear-gradient(90deg, #2e4a3a 0 8px, #35573f 8px 16px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* ── 木牌告示（草地/地面上章节标题用）────────────────────── */
+.signboard {
+  display: inline-block;
+  background: var(--color-panel);
+  border: 3px solid #8a6844;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 2px rgba(90, 66, 48, 0.28);
+  padding: 2px 12px;
+}

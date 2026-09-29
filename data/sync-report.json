@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-09-29T00:34:58.228Z",
+  "modelCount": 432,
+  "vendorCount": 28,
+  "dragon": {
+    "slug": "openai--gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "vendor": "openai",
+    "basis": "eci",
+    "eci": 166.6,
+    "since": "2026-09-04"
+  },
+  "coverage": {
+    "vendorCount": 28,
+    "modelCount": 432,
+    "eciCoverage": 0.28935185185185186,
+    "sweBenchCoverage": 0.06018518518518518
+  },
+  "unmatchedEciCount": 63,
+  "perVendor": [
+    {
+      "id": "deepseek",
+      "count": 16,
+      "flagship": "deepseek--deepseek-ai-deepseek-v4-pro-0813"
+    },
+    {
+      "id": "alibaba",
+      "count": 79,
+      "flagship": "alibaba--qwen3.8-max"
+    },
+    {
+      "id": "zhipuai",
+      "count": 30,
+      "flagship": "zhipuai--glm-5.3"
+    },
+    {
+      "id": "moonshotai",
+      "count": 11,
+      "flagship": "moonshotai--kimi-k3"
+    },
+    {
+      "id": "minimax",
+      "count": 12,
+      "flagship": "minimax--minimax-m3"
+    },
+    {
+      "id": "stepfun",
+      "count": 11,
+      "flagship": "stepfun--step-5-preview"
+    },
+    {
+      "id": "volcengine",
+      "count": 12,
+      "flagship": "volcengine--doubao-seed-character-260628"
+    },
+    {
+      "id": "xiaomi",
+      "count": 12,
+      "flagship": "xiaomi--mimo-v2.6-flash"
+    },
+    {
+      "id": "sensenova",
+      "count": 1,
+      "flagship": "sensenova--sensenova-6.8-flash-lite"
+    },
+    {
+      "id": "longcat",
+      "count": 1,
+      "flagship": "longcat--longcat-2.0"
+    },
+    {
+      "id": "tencent",
+      "count": 2,
+      "flagship": "tencent--tencent-hy4-preview"
+    },
+    {
+      "id": "openai",
+      "count": 54,
+      "flagship": "openai--gpt-6-astra"
+    },
+    {
+      "id": "anthropic",
+      "count": 13,
+      "flagship": "anthropic--claude-fable-5-1"
+    },
+    {
+      "id": "google",
+      "count": 44,
+      "flagship": "google--gemini-3.7-flash"
+    },
+    {
+      "id": "xai",
+      "count": 12,
+      "flagship": "xai--grok-4.6"
+    },
+    {
+      "id": "meta",
+      "count": 11,
+      "flagship": "meta--muse-spark-1.3"
+    },
+    {
+      "id": "mistral",
+      "count": 33,
+      "flagship": "mistral--mistral-medium-2604"
+    },
+    {
+      "id": "cohere",
+      "count": 14,
+      "flagship": "cohere--command-r-08-2024"
+    },
+    {
+      "id": "ai21",
+      "count": 2,
+      "flagship": "ai21--jamba-mini"
+    },
+    {
+      "id": "perplexity",
+      "count": 4,
+      "flagship": "perplexity--sonar-deep-research"
+    },
+    {
+      "id": "upstage",
+      "count": 4,
+      "flagship": "upstage--solar-pro4"
+    },
+    {
+      "id": "amazon",
+      "count": 2,
+      "flagship": "amazon--nova-2-pro-v1"
+    },
+    {
+      "id": "thinkingmachines",
+      "count": 3,
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+    },
+    {
+      "id": "inception",
+      "count": 3,
+      "flagship": "inception--mercury-2.5"
+    },
+    {
+      "id": "poolside",
+      "count": 3,
+      "flagship": "poolside--poolside-laguna-s-2.1"
+    },
+    {
+      "id": "sakana",
+      "count": 3,
+      "flagship": "sakana--sakana-namazu"
+    },
+    {
+      "id": "nvidia",
+      "count": 39,
+      "flagship": "nvidia--nvidia-nvidia-nemotron-nano-9b-v2"
+    },
+    {
+      "id": "ibm",
+      "count": 1,
+      "flagship": "ibm--ibm-granite-4-h-small"
+    }
+  ],
+  "warnings": [
+    "Epoch 有 63 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.46)、grok4fast(144.21)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.34)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、qwen25max(132.54)、grok2(130.48)、phi4(130.43)、claude35sonnet(130)"
+  ]
+}

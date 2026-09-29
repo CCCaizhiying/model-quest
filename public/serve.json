@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "directoryListing": false,
+  "headers": [
+    {
+      "source": "**/*.@(svg|png|ico|woff2)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    }
+  ]
+}

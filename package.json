@@ -1,0 +1,33 @@
+{
+  "name": "model-quest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Model Quest · 模型屠龙录 —— 致敬勇者斗恶龙的 AI 大模型查询站：当前最强模型是盘踞龙座的恶龙，其余皆为讨伐的勇者",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "sync": "tsx scripts/sync/run.ts",
+    "check": "tsx scripts/sync/selftest.ts",
+    "logos": "tsx scripts/sync/logos.ts",
+    "preview": "npx serve@11 out -l 3100",
+    "rebuild": "npm run sync && npm run logos && npm run build"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "minisearch": "^7.1.2",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "pngjs": "^7.0.0",
+    "tailwindcss": "^4.1.11",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  },
+  "license": "MIT"
+}
