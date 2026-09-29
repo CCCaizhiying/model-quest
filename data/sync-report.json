@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T00:34:58.228Z",
-  "modelCount": 432,
+  "generatedAt": "2026-09-29T12:05:30.651Z",
+  "modelCount": 431,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,11 +12,11 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 432,
-    "eciCoverage": 0.28935185185185186,
-    "sweBenchCoverage": 0.06018518518518518
+    "modelCount": 431,
+    "eciCoverage": 0.2877030162412993,
+    "sweBenchCoverage": 0.060324825986078884
   },
-  "unmatchedEciCount": 63,
+  "unmatchedEciCount": 65,
   "perVendor": [
     {
       "id": "deepseek",
@@ -100,7 +100,7 @@
     },
     {
       "id": "mistral",
-      "count": 33,
+      "count": 32,
       "flagship": "mistral--mistral-medium-2604"
     },
     {
@@ -160,6 +160,6 @@
     }
   ],
   "warnings": [
-    "Epoch 有 63 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.46)、grok4fast(144.21)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.34)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、qwen25max(132.54)、grok2(130.48)、phi4(130.43)、claude35sonnet(130)"
+    "Epoch 有 65 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.46)、grok4fast(144.21)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.34)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、magistralsmall10(133.19)、qwen25max(132.54)、magistralsmall12(131.41)、grok2(130.48)"
   ]
 }
