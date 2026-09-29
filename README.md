@@ -73,6 +73,12 @@ npm run preview   # 预览静态产物 http://localhost:3100
 | `npm run check` | 数据管线自检（38 项断言：名称归一化、职业映射、匹配变体、新鲜度、综合战力…） |
 | `npm run rebuild` | 一条龙：sync + logos + build |
 
+### 自动数据更新（GitHub Actions）
+
+仓库内置 [`.github/workflows/sync.yml`](.github/workflows/sync.yml)：**每 6 小时**自动抓取四源 → 自检 → 构建验证 → 有变化才提交推送，推送到 `main` 后连数据带页面一起保持最新。手动触发：仓库 **Actions** 页 → Sync data → Run workflow。调整频率改 `cron` 一行即可。
+
+> 注意：GitHub 对连续 60 天无提交活动的仓库会自动暂停定时工作流，届时手动 Run 一次即恢复。
+
 需要 Node.js 20+。无后端、无 API key、无用户数据收集。
 
 ## 工程结构

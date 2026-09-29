@@ -1,0 +1,54 @@
+# 数据自动同步：定时抓取四源（models.dev / Epoch AI / LiveBench / OpenRouter），
+# 有变化才提交。手动触发：仓库 Actions 页 → Sync data → Run workflow。
+name: Sync data
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 每 6 小时整点跑一次（UTC）
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write # 允许工作流推送数据提交
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: true # 上一次还没跑完时，跳过本次
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 抓取数据
+        run: npm run sync
+
+      - name: 下载门派徽标
+        run: npm run logos
+
+      - name: 管线自检
+        run: npm run check
+
+      - name: 构建验证（确保新数据不会弄坏站点）
+        run: npm run build
+
+      - name: 数据有变化才提交推送
+        run: |
+          git config user.name "model-quest-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ public/logos public/search-index.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "sync: 数据更新 $(date -u +%F_%H:%M_UTC)"
+            git push
+          fi
