@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T12:05:30.651Z",
-  "modelCount": 431,
+  "generatedAt": "2026-09-29T21:49:48.091Z",
+  "modelCount": 432,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 431,
-    "eciCoverage": 0.2877030162412993,
-    "sweBenchCoverage": 0.060324825986078884
+    "modelCount": 432,
+    "eciCoverage": 0.28703703703703703,
+    "sweBenchCoverage": 0.06018518518518518
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -75,7 +75,7 @@
     },
     {
       "id": "openai",
-      "count": 54,
+      "count": 55,
       "flagship": "openai--gpt-6-astra"
     },
     {
