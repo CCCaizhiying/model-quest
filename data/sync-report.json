@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T12:23:57.680Z",
-  "modelCount": 432,
+  "generatedAt": "2026-10-01T22:19:23.846Z",
+  "modelCount": 433,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 432,
-    "eciCoverage": 0.2916666666666667,
-    "sweBenchCoverage": 0.06018518518518518
+    "modelCount": 433,
+    "eciCoverage": 0.2909930715935335,
+    "sweBenchCoverage": 0.06004618937644342
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -150,7 +150,7 @@
     },
     {
       "id": "nvidia",
-      "count": 39,
+      "count": 40,
       "flagship": "nvidia--nvidia-nvidia-nemotron-nano-9b-v2"
     },
     {
