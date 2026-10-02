@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T11:50:57.902Z",
-  "modelCount": 438,
+  "generatedAt": "2026-10-02T17:25:06.968Z",
+  "modelCount": 437,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 438,
-    "eciCoverage": 0.2876712328767123,
-    "sweBenchCoverage": 0.0593607305936073
+    "modelCount": 437,
+    "eciCoverage": 0.28832951945080093,
+    "sweBenchCoverage": 0.059496567505720827
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -90,7 +90,7 @@
     },
     {
       "id": "xai",
-      "count": 12,
+      "count": 13,
       "flagship": "xai--grok-4.6"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "id": "cohere",
-      "count": 19,
+      "count": 17,
       "flagship": "cohere--command-r-08-2024"
     },
     {
