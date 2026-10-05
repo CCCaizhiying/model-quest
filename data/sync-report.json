@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:33:36.895Z",
+  "generatedAt": "2026-10-05T23:42:31.089Z",
   "modelCount": 437,
   "vendorCount": 28,
   "dragon": {
@@ -7,13 +7,13 @@
     "name": "Claude Opus 5.5",
     "vendor": "anthropic",
     "basis": "eci",
-    "eci": 167.35,
+    "eci": 167.33,
     "since": "2026-09-22"
   },
   "coverage": {
     "vendorCount": 28,
     "modelCount": 437,
-    "eciCoverage": 0.28832951945080093,
+    "eciCoverage": 0.2974828375286041,
     "sweBenchCoverage": 0.059496567505720827
   },
   "unmatchedEciCount": 65,
@@ -160,6 +160,6 @@
     }
   ],
   "warnings": [
-    "Epoch 有 65 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.45)、grok4fast(144.21)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.33)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、magistralsmall10(133.19)、qwen25max(132.53)、magistralsmall12(131.42)、grok2(130.48)"
+    "Epoch 有 65 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.44)、grok4fast(144.2)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.33)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、magistralsmall10(133.19)、qwen25max(132.53)、magistralsmall12(131.42)、grok2(130.48)"
   ]
 }
