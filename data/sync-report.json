@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T12:36:54.405Z",
-  "modelCount": 438,
+  "generatedAt": "2026-10-07T22:39:51.677Z",
+  "modelCount": 446,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 438,
-    "eciCoverage": 0.2968036529680365,
-    "sweBenchCoverage": 0.0593607305936073
+    "modelCount": 446,
+    "eciCoverage": 0.2914798206278027,
+    "sweBenchCoverage": 0.05829596412556054
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 13,
+      "count": 14,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "id": "mistral",
-      "count": 33,
+      "count": 40,
       "flagship": "mistral--mistral-medium-2604"
     },
     {
