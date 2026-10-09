@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T12:32:24.560Z",
-  "modelCount": 446,
+  "generatedAt": "2026-10-09T22:13:02.040Z",
+  "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 446,
-    "eciCoverage": 0.2914798206278027,
-    "sweBenchCoverage": 0.05829596412556054
+    "modelCount": 449,
+    "eciCoverage": 0.289532293986637,
+    "sweBenchCoverage": 0.05790645879732739
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -25,12 +25,12 @@
     },
     {
       "id": "alibaba",
-      "count": 79,
+      "count": 80,
       "flagship": "alibaba--qwen3.8-max"
     },
     {
       "id": "zhipuai",
-      "count": 30,
+      "count": 31,
       "flagship": "zhipuai--glm-5.3"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "id": "minimax",
-      "count": 12,
+      "count": 13,
       "flagship": "minimax--minimax-m3"
     },
     {
