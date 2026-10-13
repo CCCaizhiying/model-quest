@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T13:31:31.939Z",
-  "modelCount": 450,
+  "generatedAt": "2026-10-13T22:16:14.590Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.28888888888888886,
-    "sweBenchCoverage": 0.057777777777777775
+    "modelCount": 451,
+    "eciCoverage": 0.28824833702882485,
+    "sweBenchCoverage": 0.057649667405764965
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -85,7 +85,7 @@
     },
     {
       "id": "google",
-      "count": 44,
+      "count": 45,
       "flagship": "google--gemini-3.7-flash"
     },
     {
