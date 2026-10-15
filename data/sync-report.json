@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:16:19.799Z",
+  "generatedAt": "2026-10-15T03:06:23.725Z",
   "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
@@ -7,13 +7,13 @@
     "name": "Claude Opus 5.5",
     "vendor": "anthropic",
     "basis": "eci",
-    "eci": 167.33,
+    "eci": 166.82,
     "since": "2026-09-22"
   },
   "coverage": {
     "vendorCount": 28,
     "modelCount": 451,
-    "eciCoverage": 0.28824833702882485,
+    "eciCoverage": 0.29490022172949004,
     "sweBenchCoverage": 0.057649667405764965
   },
   "unmatchedEciCount": 65,
@@ -21,7 +21,7 @@
     {
       "id": "deepseek",
       "count": 16,
-      "flagship": "deepseek--deepseek-ai-deepseek-v4-pro-0813"
+      "flagship": "deepseek--deepseek-flash"
     },
     {
       "id": "alibaba",
@@ -86,7 +86,7 @@
     {
       "id": "google",
       "count": 45,
-      "flagship": "google--gemini-3.7-flash"
+      "flagship": "google--gemini-4-argon"
     },
     {
       "id": "xai",
@@ -101,7 +101,7 @@
     {
       "id": "mistral",
       "count": 40,
-      "flagship": "mistral--mistral-medium-2604"
+      "flagship": "mistral--mistral-large-4"
     },
     {
       "id": "cohere",
@@ -160,6 +160,6 @@
     }
   ],
   "warnings": [
-    "Epoch 有 65 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.44)、grok4fast(144.2)、claude37sonnet(141.16)、grok3mini(140.35)、grok3(138.33)、qwq32b(137.6)、gpt45(136.74)、o1mini(135.82)、magistralsmall10(133.19)、qwen25max(132.53)、magistralsmall12(131.42)、grok2(130.48)"
+    "Epoch 有 65 个 ECI 条目未匹配到本地模型，最高分示例：grok4(146.43)、grok4fast(144.19)、claude37sonnet(141.14)、grok3mini(140.33)、grok3(138.32)、qwq32b(137.58)、gpt45(136.73)、o1mini(135.82)、magistralsmall10(133.2)、qwen25max(132.53)、magistralsmall12(131.43)、grok2(130.49)"
   ]
 }
