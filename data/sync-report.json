@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:04:20.947Z",
+  "generatedAt": "2026-10-18T02:56:34.275Z",
   "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
@@ -21,7 +21,7 @@
     {
       "id": "deepseek",
       "count": 16,
-      "flagship": "deepseek--deepseek-flash"
+      "flagship": "deepseek--deepseek-ai-deepseek-v4.1-flash"
     },
     {
       "id": "alibaba",
