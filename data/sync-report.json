@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T20:04:05.739Z",
-  "modelCount": 451,
+  "generatedAt": "2026-10-19T03:10:16.715Z",
+  "modelCount": 454,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 451,
-    "eciCoverage": 0.29490022172949004,
-    "sweBenchCoverage": 0.057649667405764965
+    "modelCount": 454,
+    "eciCoverage": 0.29515418502202645,
+    "sweBenchCoverage": 0.05947136563876652
   },
   "unmatchedEciCount": 65,
   "perVendor": [
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-evolving"
     },
     {
       "id": "xiaomi",
       "count": 12,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 14,
+      "count": 16,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -120,8 +120,8 @@
     },
     {
       "id": "upstage",
-      "count": 4,
-      "flagship": "upstage--solar-pro4"
+      "count": 5,
+      "flagship": "upstage--solar-mini4"
     },
     {
       "id": "amazon",
@@ -151,7 +151,7 @@
     {
       "id": "nvidia",
       "count": 40,
-      "flagship": "nvidia--nvidia-nvidia-nemotron-nano-9b-v2"
+      "flagship": "nvidia--nvidia-llama-3.1-nemotron-ultra-253b-v1"
     },
     {
       "id": "ibm",
