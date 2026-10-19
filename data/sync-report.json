@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T12:03:55.203Z",
-  "modelCount": 456,
+  "generatedAt": "2026-10-19T21:58:24.936Z",
+  "modelCount": 457,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,15 +12,15 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 456,
-    "eciCoverage": 0.2894736842105263,
-    "sweBenchCoverage": 0.05921052631578947
+    "modelCount": 457,
+    "eciCoverage": 0.29321663019693656,
+    "sweBenchCoverage": 0.05908096280087528
   },
   "unmatchedEciCount": 65,
   "perVendor": [
     {
       "id": "deepseek",
-      "count": 16,
+      "count": 17,
       "flagship": "deepseek--deepseek-ai-deepseek-v4.1-flash"
     },
     {
@@ -151,7 +151,7 @@
     {
       "id": "nvidia",
       "count": 40,
-      "flagship": "nvidia--nvidia-llama-3.1-nemotron-ultra-253b-v1"
+      "flagship": "nvidia--nvidia-llama-3.1-nemotron-nano-vl-8b-v1"
     },
     {
       "id": "ibm",
