@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T03:13:57.667Z",
-  "modelCount": 452,
+  "generatedAt": "2026-10-21T11:08:04.683Z",
+  "modelCount": 488,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 452,
-    "eciCoverage": 0.2831858407079646,
-    "sweBenchCoverage": 0.059734513274336286
+    "modelCount": 488,
+    "eciCoverage": 0.26434426229508196,
+    "sweBenchCoverage": 0.05327868852459016
   },
   "unmatchedEciCount": 68,
   "perVendor": [
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
     },
     {
       "id": "xiaomi",
       "count": 12,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -65,8 +65,8 @@
     },
     {
       "id": "longcat",
-      "count": 1,
-      "flagship": "longcat--longcat-2.0"
+      "count": 2,
+      "flagship": "longcat--longcat-2.5-preview"
     },
     {
       "id": "tencent",
@@ -130,8 +130,8 @@
     },
     {
       "id": "thinkingmachines",
-      "count": 3,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "count": 38,
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
@@ -151,7 +151,7 @@
     {
       "id": "nvidia",
       "count": 40,
-      "flagship": "nvidia--nvidia-llama-3.1-nemotron-nano-8b-v1"
+      "flagship": "nvidia--nvidia-nemotron-3.5-super-vl-120b-a12b"
     },
     {
       "id": "ibm",
