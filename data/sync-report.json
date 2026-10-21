@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T16:34:48.552Z",
-  "modelCount": 492,
+  "generatedAt": "2026-10-21T21:13:59.102Z",
+  "modelCount": 489,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 492,
-    "eciCoverage": 0.2621951219512195,
-    "sweBenchCoverage": 0.054878048780487805
+    "modelCount": 489,
+    "eciCoverage": 0.2658486707566462,
+    "sweBenchCoverage": 0.053169734151329244
   },
   "unmatchedEciCount": 68,
   "perVendor": [
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 14,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
