@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:13:21.345Z",
+  "generatedAt": "2026-10-21T03:13:57.667Z",
   "modelCount": 452,
   "vendorCount": 28,
   "dragon": {
@@ -13,7 +13,7 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 452,
-    "eciCoverage": 0.2853982300884956,
+    "eciCoverage": 0.2831858407079646,
     "sweBenchCoverage": 0.059734513274336286
   },
   "unmatchedEciCount": 68,
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r7b-12-2024"
     },
     {
       "id": "ai21",
@@ -151,7 +151,7 @@
     {
       "id": "nvidia",
       "count": 40,
-      "flagship": "nvidia--nvidia-nemotron-3-ultra-550b-a55b"
+      "flagship": "nvidia--nvidia-llama-3.1-nemotron-nano-8b-v1"
     },
     {
       "id": "ibm",
