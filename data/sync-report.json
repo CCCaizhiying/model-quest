@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T21:13:59.102Z",
-  "modelCount": 489,
+  "generatedAt": "2026-10-22T03:19:13.880Z",
+  "modelCount": 474,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 489,
-    "eciCoverage": 0.2658486707566462,
-    "sweBenchCoverage": 0.053169734151329244
+    "modelCount": 474,
+    "eciCoverage": 0.2742616033755274,
+    "sweBenchCoverage": 0.05485232067510549
   },
   "unmatchedEciCount": 68,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 14,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r7b-12-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
@@ -150,7 +150,7 @@
     },
     {
       "id": "nvidia",
-      "count": 40,
+      "count": 24,
       "flagship": "nvidia--nvidia-nemotron-3.5-super-vl-120b-a12b"
     },
     {
