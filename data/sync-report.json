@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T16:35:57.375Z",
-  "modelCount": 475,
+  "generatedAt": "2026-10-22T21:10:45.675Z",
+  "modelCount": 471,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 475,
-    "eciCoverage": 0.27157894736842103,
-    "sweBenchCoverage": 0.056842105263157895
+    "modelCount": 471,
+    "eciCoverage": 0.27388535031847133,
+    "sweBenchCoverage": 0.055201698513800426
   },
   "unmatchedEciCount": 68,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
@@ -80,12 +80,12 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
       "id": "google",
-      "count": 46,
+      "count": 43,
       "flagship": "google--gemini-4-argon"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r7b-12-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
