@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:25:49.074Z",
+  "generatedAt": "2026-10-23T20:57:24.689Z",
   "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
@@ -35,7 +35,7 @@
     },
     {
       "id": "moonshotai",
-      "count": 11,
+      "count": 13,
       "flagship": "moonshotai--kimi-k3"
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
