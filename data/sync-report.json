@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T21:10:45.675Z",
-  "modelCount": 471,
+  "generatedAt": "2026-10-23T03:18:09.838Z",
+  "modelCount": 447,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,11 +12,11 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 471,
-    "eciCoverage": 0.27388535031847133,
-    "sweBenchCoverage": 0.055201698513800426
+    "modelCount": 447,
+    "eciCoverage": 0.28635346756152125,
+    "sweBenchCoverage": 0.058165548098434
   },
-  "unmatchedEciCount": 68,
+  "unmatchedEciCount": 70,
   "perVendor": [
     {
       "id": "deepseek",
@@ -25,12 +25,12 @@
     },
     {
       "id": "alibaba",
-      "count": 81,
+      "count": 74,
       "flagship": "alibaba--qwen3.8-max"
     },
     {
       "id": "zhipuai",
-      "count": 31,
+      "count": 30,
       "flagship": "zhipuai--glm-5.3"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "id": "stepfun",
-      "count": 11,
+      "count": 9,
       "flagship": "stepfun--step-5-preview"
     },
     {
@@ -55,8 +55,8 @@
     },
     {
       "id": "xiaomi",
-      "count": 12,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "count": 8,
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -95,18 +95,18 @@
     },
     {
       "id": "meta",
-      "count": 13,
+      "count": 9,
       "flagship": "meta--muse-wonder-1.0"
     },
     {
       "id": "mistral",
-      "count": 37,
+      "count": 31,
       "flagship": "mistral--mistral-large-4"
     },
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-12-2024"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
@@ -160,6 +160,7 @@
     }
   ],
   "warnings": [
-    "Epoch 有 68 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.11)、grok4(146.24)、grok4fast(144.09)、claude37sonnet(141.03)、grok3mini(140.2)、grok3(138.21)、qwq32b(137.5)、gpt45(136.65)、o1mini(135.7)、magistralsmall10(133.07)、qwen25max(132.48)、phi4(130.48)"
+    "models.dev 缺少 provider「llama」（门派 meta）",
+    "Epoch 有 70 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.11)、grok4(146.24)、grok4fast(144.09)、claude37sonnet(141.03)、grok3mini(140.2)、grok3(138.21)、qwq32b(137.5)、gpt45(136.65)、o1mini(135.7)、magistralsmall10(133.07)、qwen25max(132.48)、phi4(130.48)"
   ]
 }
