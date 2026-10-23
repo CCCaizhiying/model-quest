@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T03:18:09.838Z",
+  "generatedAt": "2026-10-23T10:58:48.420Z",
   "modelCount": 447,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 447,
-    "eciCoverage": 0.28635346756152125,
-    "sweBenchCoverage": 0.058165548098434
+    "eciCoverage": 0.2841163310961969,
+    "sweBenchCoverage": 0.06040268456375839
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
+      "flagship": "volcengine--doubao-seed-evolving"
     },
     {
       "id": "xiaomi",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
