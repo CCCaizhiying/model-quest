@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T10:15:19.598Z",
-  "modelCount": 450,
+  "generatedAt": "2026-10-24T15:21:03.383Z",
+  "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.28,
-    "sweBenchCoverage": 0.06222222222222222
+    "modelCount": 449,
+    "eciCoverage": 0.2828507795100223,
+    "sweBenchCoverage": 0.05790645879732739
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
+      "flagship": "moonshotai--kimi-k3.1-pro"
     },
     {
       "id": "minimax",
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
+      "flagship": "volcengine--doubao-seed-evolving"
     },
     {
       "id": "xiaomi",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
