@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T10:40:41.637Z",
-  "modelCount": 449,
+  "generatedAt": "2026-10-25T15:30:56.100Z",
+  "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 449,
-    "eciCoverage": 0.2828507795100223,
-    "sweBenchCoverage": 0.05790645879732739
+    "modelCount": 450,
+    "eciCoverage": 0.28,
+    "sweBenchCoverage": 0.057777777777777775
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3"
+      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
     },
     {
       "id": "minimax",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 15,
+      "count": 16,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
