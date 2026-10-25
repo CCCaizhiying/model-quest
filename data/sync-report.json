@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T15:30:56.100Z",
-  "modelCount": 450,
+  "generatedAt": "2026-10-25T20:21:35.167Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.28,
-    "sweBenchCoverage": 0.057777777777777775
+    "modelCount": 451,
+    "eciCoverage": 0.2838137472283814,
+    "sweBenchCoverage": 0.0598669623059867
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
+      "flagship": "moonshotai--kimi-k3.1-pro"
     },
     {
       "id": "minimax",
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-pro"
+      "flagship": "xiaomi--mimo-v2.6-flash"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 17,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
