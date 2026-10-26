@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T12:13:21.183Z",
+  "generatedAt": "2026-10-26T22:16:25.504Z",
   "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
@@ -14,7 +14,7 @@
     "vendorCount": 28,
     "modelCount": 451,
     "eciCoverage": 0.28159645232815966,
-    "sweBenchCoverage": 0.06208425720620843
+    "sweBenchCoverage": 0.0598669623059867
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -40,7 +40,7 @@
     },
     {
       "id": "minimax",
-      "count": 14,
+      "count": 15,
       "flagship": "minimax--minimax-m3"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
@@ -75,12 +75,12 @@
     },
     {
       "id": "openai",
-      "count": 53,
+      "count": 54,
       "flagship": "openai--gpt-6-astra"
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r7b-12-2024"
     },
     {
       "id": "ai21",
