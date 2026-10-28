@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T12:04:52.417Z",
-  "modelCount": 452,
+  "generatedAt": "2026-10-28T22:09:13.717Z",
+  "modelCount": 448,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-opus-5-5",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 452,
-    "eciCoverage": 0.2853982300884956,
-    "sweBenchCoverage": 0.05752212389380531
+    "modelCount": 448,
+    "eciCoverage": 0.28348214285714285,
+    "sweBenchCoverage": 0.05803571428571429
   },
   "unmatchedEciCount": 70,
   "perVendor": [
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -75,17 +75,17 @@
     },
     {
       "id": "openai",
-      "count": 54,
+      "count": 53,
       "flagship": "openai--gpt-6-astra"
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 14,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
       "id": "google",
-      "count": 43,
+      "count": 41,
       "flagship": "google--gemini-4-argon"
     },
     {
@@ -100,13 +100,13 @@
     },
     {
       "id": "mistral",
-      "count": 31,
+      "count": 32,
       "flagship": "mistral--mistral-large-4"
     },
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-arabic-02-2025"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
