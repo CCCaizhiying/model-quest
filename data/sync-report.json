@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-29T12:15:33.178Z",
+  "generatedAt": "2026-10-29T22:25:03.749Z",
   "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
-    "slug": "anthropic--claude-opus-5-5",
-    "name": "Claude Opus 5.5",
-    "vendor": "anthropic",
+    "slug": "openai--gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "vendor": "openai",
     "basis": "eci",
-    "eci": 168.83,
-    "since": "2026-09-22"
+    "eci": 168.92,
+    "since": "2026-09-04"
   },
   "coverage": {
     "vendorCount": 28,
     "modelCount": 449,
-    "eciCoverage": 0.2828507795100223,
+    "eciCoverage": 0.28507795100222716,
     "sweBenchCoverage": 0.060133630289532294
   },
-  "unmatchedEciCount": 70,
+  "unmatchedEciCount": 71,
   "perVendor": [
     {
       "id": "deepseek",
       "count": 17,
-      "flagship": "deepseek--deepseek-ai-deepseek-v4.1-flash"
+      "flagship": "deepseek--deepseek-flash"
     },
     {
       "id": "alibaba",
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro"
+      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
     },
     {
       "id": "minimax",
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-08-2024"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 70 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.11)、grok4(146.24)、grok4fast(144.09)、claude37sonnet(141.03)、grok3mini(140.2)、grok3(138.21)、qwq32b(137.5)、gpt45(136.65)、o1mini(135.7)、magistralsmall10(133.07)、qwen25max(132.48)、phi4(130.48)"
+    "Epoch 有 71 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(154.94)、beam10(150.17)、grok4(146.27)、grok4fast(144.12)、claude37sonnet(141.05)、grok3mini(140.22)、grok3(138.22)、qwq32b(137.52)、gpt45(136.66)、o1mini(135.71)、magistralsmall10(133.07)、qwen25max(132.48)"
   ]
 }

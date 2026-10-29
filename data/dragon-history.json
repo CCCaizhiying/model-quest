@@ -12,5 +12,12 @@
     "name": "Claude Opus 5.5",
     "eci": 167.35,
     "basis": "eci"
+  },
+  {
+    "generatedAt": "2026-10-29T22:25:03.749Z",
+    "slug": "openai--gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "eci": 168.92,
+    "basis": "eci"
   }
 ]
