@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T22:25:03.749Z",
-  "modelCount": 449,
+  "generatedAt": "2026-10-30T04:17:25.395Z",
+  "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 449,
-    "eciCoverage": 0.28507795100222716,
-    "sweBenchCoverage": 0.060133630289532294
+    "modelCount": 450,
+    "eciCoverage": 0.2866666666666667,
+    "sweBenchCoverage": 0.06
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
@@ -100,13 +100,13 @@
     },
     {
       "id": "mistral",
-      "count": 32,
+      "count": 33,
       "flagship": "mistral--mistral-large-4"
     },
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r7b-arabic-02-2025"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
