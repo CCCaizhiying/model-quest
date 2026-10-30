@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-30T12:06:03.082Z",
-  "modelCount": 450,
+  "generatedAt": "2026-10-30T21:55:11.894Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
     "name": "GPT-6 Astra",
     "vendor": "openai",
     "basis": "eci",
-    "eci": 168.92,
+    "eci": 169.06,
     "since": "2026-09-04"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.2911111111111111,
-    "sweBenchCoverage": 0.057777777777777775
+    "modelCount": 451,
+    "eciCoverage": 0.2793791574279379,
+    "sweBenchCoverage": 0.0598669623059867
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3"
+      "flagship": "moonshotai--kimi-k3.1-pro"
     },
     {
       "id": "minimax",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 15,
+      "count": 16,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-arabic-02-2025"
+      "flagship": "cohere--command-r-plus-08-2024"
     },
     {
       "id": "ai21",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 71 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(154.94)、beam10(150.17)、grok4(146.27)、grok4fast(144.12)、claude37sonnet(141.05)、grok3mini(140.22)、grok3(138.22)、qwq32b(137.52)、gpt45(136.66)、o1mini(135.71)、magistralsmall10(133.07)、qwen25max(132.48)"
+    "Epoch 有 71 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.05)、beam10(150.24)、grok4(146.33)、grok4fast(144.15)、claude37sonnet(141.03)、grok3mini(140.28)、grok3(138.26)、qwq32b(137.52)、gpt45(136.69)、o1mini(135.82)、magistralsmall10(133.09)、qwen25max(132.51)"
   ]
 }
