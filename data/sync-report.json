@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T04:17:25.395Z",
+  "generatedAt": "2026-10-30T12:06:03.082Z",
   "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 450,
-    "eciCoverage": 0.2866666666666667,
-    "sweBenchCoverage": 0.06
+    "eciCoverage": 0.2911111111111111,
+    "sweBenchCoverage": 0.057777777777777775
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-pro"
+      "flagship": "xiaomi--mimo-v2.6-flash"
     },
     {
       "id": "sensenova",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
