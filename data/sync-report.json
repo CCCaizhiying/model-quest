@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:55:11.894Z",
+  "generatedAt": "2026-10-31T03:57:36.054Z",
   "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
@@ -13,7 +13,7 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 451,
-    "eciCoverage": 0.2793791574279379,
+    "eciCoverage": 0.2860310421286031,
     "sweBenchCoverage": 0.0598669623059867
   },
   "unmatchedEciCount": 71,
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
     },
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
