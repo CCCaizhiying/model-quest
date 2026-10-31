@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T11:39:29.632Z",
-  "modelCount": 450,
+  "generatedAt": "2026-10-31T16:47:13.159Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.2911111111111111,
-    "sweBenchCoverage": 0.057777777777777775
+    "modelCount": 451,
+    "eciCoverage": 0.28159645232815966,
+    "sweBenchCoverage": 0.06208425720620843
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 15,
+      "count": 16,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r-plus-08-2024"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
