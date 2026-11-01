@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:57:22.965Z",
+  "generatedAt": "2026-11-01T04:15:20.093Z",
   "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 450,
-    "eciCoverage": 0.2866666666666667,
-    "sweBenchCoverage": 0.057777777777777775
+    "eciCoverage": 0.28444444444444444,
+    "sweBenchCoverage": 0.06
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-arabic-02-2025"
+      "flagship": "cohere--command-r-08-2024"
     },
     {
       "id": "ai21",
