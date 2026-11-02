@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T04:18:10.672Z",
+  "generatedAt": "2026-11-02T14:42:52.209Z",
   "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 450,
-    "eciCoverage": 0.2822222222222222,
-    "sweBenchCoverage": 0.06
+    "eciCoverage": 0.28444444444444444,
+    "sweBenchCoverage": 0.057777777777777775
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3"
+      "flagship": "moonshotai--kimi-k3.1-pro"
     },
     {
       "id": "minimax",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
