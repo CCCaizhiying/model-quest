@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:36:11.717Z",
+  "generatedAt": "2026-11-03T22:52:27.243Z",
   "modelCount": 448,
   "vendorCount": 28,
   "dragon": {
@@ -14,7 +14,7 @@
     "vendorCount": 28,
     "modelCount": 448,
     "eciCoverage": 0.29017857142857145,
-    "sweBenchCoverage": 0.05580357142857143
+    "sweBenchCoverage": 0.05803571428571429
   },
   "unmatchedEciCount": 71,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-12-2024"
+      "flagship": "cohere--command-r7b-arabic-02-2025"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
