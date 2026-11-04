@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-04T13:45:06.724Z",
-  "modelCount": 450,
+  "generatedAt": "2026-11-04T23:11:00.983Z",
+  "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
     "name": "GPT-6 Astra",
     "vendor": "openai",
     "basis": "eci",
-    "eci": 169.06,
+    "eci": 169.07,
     "since": "2026-09-04"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.28444444444444444,
-    "sweBenchCoverage": 0.06
+    "modelCount": 449,
+    "eciCoverage": 0.2717149220489978,
+    "sweBenchCoverage": 0.05790645879732739
   },
-  "unmatchedEciCount": 71,
+  "unmatchedEciCount": 64,
   "perVendor": [
     {
       "id": "deepseek",
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
     },
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 17,
-      "flagship": "cohere--command-r7b-12-2024"
+      "flagship": "cohere--north-small-translate-09-2026"
     },
     {
       "id": "ai21",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 71 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.05)、beam10(150.24)、grok4(146.33)、grok4fast(144.15)、claude37sonnet(141.03)、grok3mini(140.28)、grok3(138.26)、qwq32b(137.52)、gpt45(136.69)、o1mini(135.82)、magistralsmall10(133.09)、qwen25max(132.51)"
+    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.42)、beam10(150.78)、grok4(146.86)、grok4fast(144.33)、claude37sonnet(140.99)、grok3mini(139.89)、grok3(137.5)、qwq32b(136.52)、gpt45(136.46)、o1mini(135.39)、qwen25max(131.21)、claude35sonnet(130)"
   ]
 }
