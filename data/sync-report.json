@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T04:59:57.116Z",
-  "modelCount": 450,
+  "generatedAt": "2026-11-05T13:57:26.781Z",
+  "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.2688888888888889,
-    "sweBenchCoverage": 0.057777777777777775
+    "modelCount": 449,
+    "eciCoverage": 0.2717149220489978,
+    "sweBenchCoverage": 0.060133630289532294
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
+      "flagship": "moonshotai--kimi-k3"
     },
     {
       "id": "minimax",
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
