@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T22:41:17.202Z",
-  "modelCount": 451,
+  "generatedAt": "2026-11-07T04:33:26.211Z",
+  "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 451,
-    "eciCoverage": 0.2727272727272727,
-    "sweBenchCoverage": 0.0598669623059867
+    "modelCount": 450,
+    "eciCoverage": 0.27555555555555555,
+    "sweBenchCoverage": 0.06
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 16,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
