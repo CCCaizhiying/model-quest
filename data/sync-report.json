@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T04:33:26.211Z",
-  "modelCount": 450,
+  "generatedAt": "2026-11-07T12:25:01.899Z",
+  "modelCount": 449,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 450,
-    "eciCoverage": 0.27555555555555555,
-    "sweBenchCoverage": 0.06
+    "modelCount": 449,
+    "eciCoverage": 0.2739420935412027,
+    "sweBenchCoverage": 0.060133630289532294
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3"
+      "flagship": "moonshotai--kimi-k3.1-pro"
     },
     {
       "id": "minimax",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-opus-5-5"
     },
     {
