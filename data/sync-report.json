@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:34:14.825Z",
+  "generatedAt": "2026-11-09T15:06:30.247Z",
   "modelCount": 450,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 450,
-    "eciCoverage": 0.2777777777777778,
-    "sweBenchCoverage": 0.057777777777777775
+    "eciCoverage": 0.27111111111111114,
+    "sweBenchCoverage": 0.06
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -36,7 +36,7 @@
     {
       "id": "moonshotai",
       "count": 13,
-      "flagship": "moonshotai--kimi-k3"
+      "flagship": "moonshotai--kimi-k3.1-pro-highspeed"
     },
     {
       "id": "minimax",
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
