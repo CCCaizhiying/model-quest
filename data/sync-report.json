@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T14:18:03.868Z",
-  "modelCount": 451,
+  "generatedAt": "2026-11-10T22:48:56.702Z",
+  "modelCount": 453,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 451,
-    "eciCoverage": 0.270509977827051,
-    "sweBenchCoverage": 0.057649667405764965
+    "modelCount": 453,
+    "eciCoverage": 0.271523178807947,
+    "sweBenchCoverage": 0.06181015452538632
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -51,12 +51,12 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-pro"
+      "flagship": "xiaomi--mimo-v2.6-flash"
     },
     {
       "id": "sensenova",
@@ -80,12 +80,12 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 17,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
       "id": "google",
-      "count": 41,
+      "count": 42,
       "flagship": "google--gemini-4-argon"
     },
     {
