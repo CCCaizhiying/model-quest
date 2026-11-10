@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T01:09:18.744Z",
-  "modelCount": 452,
+  "generatedAt": "2026-11-10T14:18:03.868Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 452,
-    "eciCoverage": 0.27876106194690264,
-    "sweBenchCoverage": 0.059734513274336286
+    "modelCount": 451,
+    "eciCoverage": 0.270509977827051,
+    "sweBenchCoverage": 0.057649667405764965
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 16,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
