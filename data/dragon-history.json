@@ -19,5 +19,12 @@
     "name": "GPT-6 Astra",
     "eci": 168.92,
     "basis": "eci"
+  },
+  {
+    "generatedAt": "2026-11-10T01:09:18.744Z",
+    "slug": "anthropic--claude-fable-5-2",
+    "name": "Claude Fable 5.2",
+    "eci": 174.24,
+    "basis": "eci"
   }
 ]
