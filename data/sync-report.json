@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-11T13:31:04.562Z",
-  "modelCount": 452,
+  "generatedAt": "2026-11-12T00:00:19.093Z",
+  "modelCount": 453,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
     "name": "Claude Fable 5.2",
     "vendor": "anthropic",
     "basis": "eci",
-    "eci": 174.24,
+    "eci": 173.44,
     "since": "2026-11-09"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 452,
-    "eciCoverage": 0.2743362831858407,
-    "sweBenchCoverage": 0.05752212389380531
+    "modelCount": 453,
+    "eciCoverage": 0.27593818984547464,
+    "sweBenchCoverage": 0.059602649006622516
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,13 +80,13 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 17,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
       "id": "google",
       "count": 42,
-      "flagship": "google--gemini-4-argon"
+      "flagship": "google--gemini-4-carbon"
     },
     {
       "id": "xai",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.41)、beam10(150.81)、grok4(146.88)、grok4fast(144.33)、claude37sonnet(141)、grok3mini(139.92)、grok3(137.51)、qwq32b(136.53)、gpt45(136.48)、o1mini(135.38)、qwen25max(131.23)、claude35sonnet(130)"
+    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.42)、beam10(150.91)、grok4(146.9)、grok4fast(144.31)、claude37sonnet(141)、grok3mini(139.88)、grok3(137.49)、qwq32b(136.48)、gpt45(136.45)、o1mini(135.3)、qwen25max(131.15)、claude35sonnet(130)"
   ]
 }
