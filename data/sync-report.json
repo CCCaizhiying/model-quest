@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:53:21.334Z",
+  "generatedAt": "2026-11-13T23:13:36.370Z",
   "modelCount": 452,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 452,
-    "eciCoverage": 0.27654867256637167,
-    "sweBenchCoverage": 0.05752212389380531
+    "eciCoverage": 0.2831858407079646,
+    "sweBenchCoverage": 0.059734513274336286
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 38,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
