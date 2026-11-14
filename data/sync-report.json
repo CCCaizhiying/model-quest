@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T23:13:36.370Z",
-  "modelCount": 452,
+  "generatedAt": "2026-11-14T04:51:53.908Z",
+  "modelCount": 451,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 452,
-    "eciCoverage": 0.2831858407079646,
-    "sweBenchCoverage": 0.059734513274336286
+    "modelCount": 451,
+    "eciCoverage": 0.28159645232815966,
+    "sweBenchCoverage": 0.057649667405764965
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 15,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
