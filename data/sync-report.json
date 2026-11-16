@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T04:40:13.416Z",
-  "modelCount": 455,
+  "generatedAt": "2026-11-16T14:43:17.434Z",
+  "modelCount": 457,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 455,
-    "eciCoverage": 0.2725274725274725,
-    "sweBenchCoverage": 0.054945054945054944
+    "modelCount": 457,
+    "eciCoverage": 0.26914660831509846,
+    "sweBenchCoverage": 0.05908096280087528
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "flagship": "xiaomi--mimo-v2.6-pro"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 18,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 39,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small"
     },
     {
       "id": "inception",
