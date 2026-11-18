@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T00:28:57.964Z",
-  "modelCount": 459,
+  "generatedAt": "2026-11-18T15:03:57.145Z",
+  "modelCount": 461,
   "vendorCount": 28,
   "dragon": {
     "slug": "openai--gpt-6.2-astra",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 459,
-    "eciCoverage": 0.27450980392156865,
-    "sweBenchCoverage": 0.054466230936819175
+    "modelCount": 461,
+    "eciCoverage": 0.27331887201735355,
+    "sweBenchCoverage": 0.05856832971800434
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
+      "flagship": "volcengine--doubao-seed-evolving"
     },
     {
       "id": "xiaomi",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 16,
+      "count": 18,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
