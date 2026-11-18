@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-17T15:28:22.638Z",
-  "modelCount": 457,
+  "generatedAt": "2026-11-18T00:28:57.964Z",
+  "modelCount": 459,
   "vendorCount": 28,
   "dragon": {
-    "slug": "anthropic--claude-fable-5-2",
-    "name": "Claude Fable 5.2",
-    "vendor": "anthropic",
+    "slug": "openai--gpt-6.2-astra",
+    "name": "GPT-6.2 Astra",
+    "vendor": "openai",
     "basis": "eci",
-    "eci": 173.44,
-    "since": "2026-11-09"
+    "eci": 174.17,
+    "since": "2026-11-17"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 457,
-    "eciCoverage": 0.2778993435448578,
-    "sweBenchCoverage": 0.05908096280087528
+    "modelCount": 459,
+    "eciCoverage": 0.27450980392156865,
+    "sweBenchCoverage": 0.054466230936819175
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
     },
     {
       "id": "xiaomi",
@@ -75,8 +75,8 @@
     },
     {
       "id": "openai",
-      "count": 53,
-      "flagship": "openai--gpt-6-astra"
+      "count": 55,
+      "flagship": "openai--gpt-6.2-astra"
     },
     {
       "id": "anthropic",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 39,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.42)、beam10(150.91)、grok4(146.9)、grok4fast(144.31)、claude37sonnet(141)、grok3mini(139.88)、grok3(137.49)、qwq32b(136.48)、gpt45(136.45)、o1mini(135.3)、qwen25max(131.15)、claude35sonnet(130)"
+    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.45)、beam10(150.87)、grok4(146.96)、grok4fast(144.35)、claude37sonnet(141.05)、grok3mini(139.95)、grok3(137.59)、gpt45(136.5)、qwq32b(136.48)、o1mini(135.28)、qwen25max(131.17)、claude35sonnet(130)"
   ]
 }

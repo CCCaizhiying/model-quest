@@ -26,5 +26,12 @@
     "name": "Claude Fable 5.2",
     "eci": 174.24,
     "basis": "eci"
+  },
+  {
+    "generatedAt": "2026-11-18T00:28:57.964Z",
+    "slug": "openai--gpt-6.2-astra",
+    "name": "GPT-6.2 Astra",
+    "eci": 174.17,
+    "basis": "eci"
   }
 ]
