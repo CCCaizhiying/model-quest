@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:03:57.145Z",
+  "generatedAt": "2026-11-18T23:51:52.468Z",
   "modelCount": 461,
   "vendorCount": 28,
   "dragon": {
@@ -13,8 +13,8 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 461,
-    "eciCoverage": 0.27331887201735355,
-    "sweBenchCoverage": 0.05856832971800434
+    "eciCoverage": 0.26898047722342733,
+    "sweBenchCoverage": 0.05422993492407809
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -70,8 +70,8 @@
     },
     {
       "id": "tencent",
-      "count": 2,
-      "flagship": "tencent--tencent-hy4-preview"
+      "count": 3,
+      "flagship": "tencent--tencent-hy4-flash"
     },
     {
       "id": "openai",
@@ -80,12 +80,12 @@
     },
     {
       "id": "anthropic",
-      "count": 18,
+      "count": 16,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
       "id": "google",
-      "count": 43,
+      "count": 44,
       "flagship": "google--gemini-4-carbon"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 39,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
