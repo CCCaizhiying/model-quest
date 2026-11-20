@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-20T00:16:45.045Z",
-  "modelCount": 467,
+  "generatedAt": "2026-11-20T14:51:40.531Z",
+  "modelCount": 466,
   "vendorCount": 28,
   "dragon": {
-    "slug": "openai--gpt-6.2-astra",
-    "name": "GPT-6.2 Astra",
-    "vendor": "openai",
+    "slug": "anthropic--claude-fable-5-2",
+    "name": "Claude Fable 5.2",
+    "vendor": "anthropic",
     "basis": "eci",
-    "eci": 174.17,
-    "since": "2026-11-17"
+    "eci": 173.4,
+    "since": "2026-11-09"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 467,
-    "eciCoverage": 0.2698072805139186,
-    "sweBenchCoverage": 0.057815845824411134
+    "modelCount": 466,
+    "eciCoverage": 0.27467811158798283,
+    "sweBenchCoverage": 0.05793991416309013
   },
   "unmatchedEciCount": 64,
   "perVendor": [
@@ -90,7 +90,7 @@
     },
     {
       "id": "xai",
-      "count": 12,
+      "count": 11,
       "flagship": "xai--grok-4.6"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 39,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.45)、beam10(150.87)、grok4(146.96)、grok4fast(144.35)、claude37sonnet(141.05)、grok3mini(139.95)、grok3(137.59)、gpt45(136.5)、qwq32b(136.48)、o1mini(135.28)、qwen25max(131.17)、claude35sonnet(130)"
+    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.47)、beam10(150.84)、grok4(146.91)、grok4fast(144.32)、claude37sonnet(141.03)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)、qwq32b(136.44)、o1mini(135.27)、qwen25max(131.17)、claude35sonnet(130)"
   ]
 }
