@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T05:32:25.380Z",
-  "modelCount": 467,
+  "generatedAt": "2026-11-21T14:10:19.419Z",
+  "modelCount": 468,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 467,
-    "eciCoverage": 0.2740899357601713,
-    "sweBenchCoverage": 0.057815845824411134
+    "modelCount": 468,
+    "eciCoverage": 0.2799145299145299,
+    "sweBenchCoverage": 0.057692307692307696
   },
   "unmatchedEciCount": 63,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-character-260628"
+      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
     },
     {
       "id": "xiaomi",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 18,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
