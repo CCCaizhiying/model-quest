@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:39:33.226Z",
+  "generatedAt": "2026-11-21T05:32:25.380Z",
   "modelCount": 467,
   "vendorCount": 28,
   "dragon": {
@@ -13,10 +13,10 @@
   "coverage": {
     "vendorCount": 28,
     "modelCount": 467,
-    "eciCoverage": 0.2762312633832976,
+    "eciCoverage": 0.2740899357601713,
     "sweBenchCoverage": 0.057815845824411134
   },
-  "unmatchedEciCount": 64,
+  "unmatchedEciCount": 63,
   "perVendor": [
     {
       "id": "deepseek",
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-pro-260628"
+      "flagship": "volcengine--doubao-seed-character-260628"
     },
     {
       "id": "xiaomi",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 39,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
@@ -151,7 +151,7 @@
     {
       "id": "nvidia",
       "count": 24,
-      "flagship": "nvidia--nvidia-nemotron-3.5-super-vl-120b-a12b"
+      "flagship": "nvidia--nvidia-llama-3.1-nemotron-70b-instruct"
     },
     {
       "id": "ibm",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 64 个 ECI 条目未匹配到本地模型，最高分示例：musesparkopen(155.47)、beam10(150.84)、grok4(146.91)、grok4fast(144.32)、claude37sonnet(141.03)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)、qwq32b(136.44)、o1mini(135.27)、qwen25max(131.17)、claude35sonnet(130)"
+    "Epoch 有 63 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、grok4(146.91)、grok4fast(144.32)、claude37sonnet(141.03)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)、qwq32b(136.44)、o1mini(135.27)、qwen25max(131.17)、claude35sonnet(130)、grok2(129.79)"
   ]
 }
