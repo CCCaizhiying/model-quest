@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T05:40:23.171Z",
-  "modelCount": 467,
+  "generatedAt": "2026-11-23T17:19:47.674Z",
+  "modelCount": 466,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 467,
-    "eciCoverage": 0.2762312633832976,
-    "sweBenchCoverage": 0.057815845824411134
+    "modelCount": 466,
+    "eciCoverage": 0.27682403433476394,
+    "sweBenchCoverage": 0.0536480686695279
   },
   "unmatchedEciCount": 63,
   "perVendor": [
@@ -51,7 +51,7 @@
     {
       "id": "volcengine",
       "count": 12,
-      "flagship": "volcengine--doubao-seed-evolving"
+      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
     },
     {
       "id": "xiaomi",
@@ -65,8 +65,8 @@
     },
     {
       "id": "longcat",
-      "count": 2,
-      "flagship": "longcat--longcat-2.5-preview"
+      "count": 3,
+      "flagship": "longcat--longcat-2.5"
     },
     {
       "id": "tencent",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 15,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
