@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T16:56:09.521Z",
-  "modelCount": 443,
+  "generatedAt": "2026-11-25T01:53:29.499Z",
+  "modelCount": 422,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,11 +12,11 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 443,
-    "eciCoverage": 0.2686230248306998,
-    "sweBenchCoverage": 0.05869074492099323
+    "modelCount": 422,
+    "eciCoverage": 0.2796208530805687,
+    "sweBenchCoverage": 0.05924170616113744
   },
-  "unmatchedEciCount": 71,
+  "unmatchedEciCount": 74,
   "perVendor": [
     {
       "id": "deepseek",
@@ -25,12 +25,12 @@
     },
     {
       "id": "alibaba",
-      "count": 75,
+      "count": 53,
       "flagship": "alibaba--qwen3.8-max"
     },
     {
       "id": "zhipuai",
-      "count": 32,
+      "count": 33,
       "flagship": "zhipuai--glm-5.3"
     },
     {
@@ -40,23 +40,23 @@
     },
     {
       "id": "minimax",
-      "count": 15,
+      "count": 14,
       "flagship": "minimax--minimax-m3"
     },
     {
       "id": "stepfun",
-      "count": 9,
+      "count": 11,
       "flagship": "stepfun--step-5-preview"
     },
     {
       "id": "volcengine",
-      "count": 12,
-      "flagship": "volcengine--doubao-seed-2-1-turbo-260628"
+      "count": 9,
+      "flagship": "volcengine--doubao-seed-2-1-lite-260915"
     },
     {
       "id": "xiaomi",
-      "count": 8,
-      "flagship": "xiaomi--mimo-v2.6-pro"
+      "count": 5,
+      "flagship": "xiaomi--mimo-v2.6-flash"
     },
     {
       "id": "sensenova",
@@ -65,7 +65,7 @@
     },
     {
       "id": "longcat",
-      "count": 3,
+      "count": 2,
       "flagship": "longcat--longcat-2.5"
     },
     {
@@ -75,12 +75,12 @@
     },
     {
       "id": "openai",
-      "count": 44,
+      "count": 45,
       "flagship": "openai--gpt-6.2-astra"
     },
     {
       "id": "anthropic",
-      "count": 15,
+      "count": 16,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
@@ -95,7 +95,7 @@
     },
     {
       "id": "meta",
-      "count": 13,
+      "count": 15,
       "flagship": "meta--muse-wonder-1.0"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "id": "cohere",
-      "count": 17,
+      "count": 19,
       "flagship": "cohere--north-small-translate-09-2026"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 40,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
     },
     {
       "id": "inception",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 71 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、grok4(146.91)、o4mini(145.21)、grok4fast(144.32)、o1(141.16)、claude37sonnet(141.03)、o3mini(140.63)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)、qwq32b(136.44)、o1mini(135.27)"
+    "Epoch 有 74 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、qwen36max(149.86)、grok4(146.91)、o4mini(145.21)、grok4fast(144.32)、qwen3max(142.43)、o1(141.16)、claude37sonnet(141.03)、o3mini(140.63)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)"
   ]
 }
