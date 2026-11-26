@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T16:45:28.030Z",
-  "modelCount": 428,
+  "generatedAt": "2026-11-26T01:31:13.648Z",
+  "modelCount": 422,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,11 +12,11 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 428,
-    "eciCoverage": 0.2757009345794392,
-    "sweBenchCoverage": 0.05841121495327103
+    "modelCount": 422,
+    "eciCoverage": 0.28199052132701424,
+    "sweBenchCoverage": 0.05924170616113744
   },
-  "unmatchedEciCount": 74,
+  "unmatchedEciCount": 75,
   "perVendor": [
     {
       "id": "deepseek",
@@ -30,7 +30,7 @@
     },
     {
       "id": "zhipuai",
-      "count": 33,
+      "count": 34,
       "flagship": "zhipuai--glm-5.3"
     },
     {
@@ -56,7 +56,7 @@
     {
       "id": "xiaomi",
       "count": 5,
-      "flagship": "xiaomi--mimo-v2.6-pro"
+      "flagship": "xiaomi--mimo-v2.6-flash"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 16,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 40,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-2-small"
     },
     {
       "id": "inception",
@@ -150,8 +150,8 @@
     },
     {
       "id": "nvidia",
-      "count": 24,
-      "flagship": "nvidia--nvidia-llama-3.1-nemotron-70b-instruct"
+      "count": 18,
+      "flagship": "nvidia--nvidia-nemotron-3.5-super-vl-120b-a12b"
     },
     {
       "id": "ibm",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 74 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、qwen36max(149.86)、grok4(146.91)、o4mini(145.21)、grok4fast(144.32)、qwen3max(142.43)、o1(141.16)、claude37sonnet(141.03)、o3mini(140.63)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)"
+    "Epoch 有 75 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、qwen36max(149.86)、grok4(146.91)、o4mini(145.21)、grok4fast(144.32)、qwen3max(142.43)、o1(141.16)、claude37sonnet(141.03)、o3mini(140.63)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)"
   ]
 }
