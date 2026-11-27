@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T16:20:56.177Z",
-  "modelCount": 421,
+  "generatedAt": "2026-11-27T01:28:08.305Z",
+  "modelCount": 426,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
@@ -12,9 +12,9 @@
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 421,
-    "eciCoverage": 0.2755344418052256,
-    "sweBenchCoverage": 0.05938242280285035
+    "modelCount": 426,
+    "eciCoverage": 0.27699530516431925,
+    "sweBenchCoverage": 0.06103286384976526
   },
   "unmatchedEciCount": 75,
   "perVendor": [
@@ -25,7 +25,7 @@
     },
     {
       "id": "alibaba",
-      "count": 54,
+      "count": 55,
       "flagship": "alibaba--qwen3.8-max"
     },
     {
@@ -55,8 +55,8 @@
     },
     {
       "id": "xiaomi",
-      "count": 5,
-      "flagship": "xiaomi--mimo-v2.6-flash"
+      "count": 7,
+      "flagship": "xiaomi--xiaomimimo-mimo-v2.6-pro-rl"
     },
     {
       "id": "sensenova",
@@ -80,7 +80,7 @@
     },
     {
       "id": "anthropic",
-      "count": 15,
+      "count": 17,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 40,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144-sampling-nvfp4"
     },
     {
       "id": "inception",
