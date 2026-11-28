@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-27T16:05:44.811Z",
-  "modelCount": 427,
+  "generatedAt": "2026-11-28T01:03:30.440Z",
+  "modelCount": 425,
   "vendorCount": 28,
   "dragon": {
     "slug": "anthropic--claude-fable-5-2",
     "name": "Claude Fable 5.2",
     "vendor": "anthropic",
     "basis": "eci",
-    "eci": 173.4,
+    "eci": 173.16,
     "since": "2026-11-09"
   },
   "coverage": {
     "vendorCount": 28,
-    "modelCount": 427,
-    "eciCoverage": 0.2786885245901639,
-    "sweBenchCoverage": 0.0585480093676815
+    "modelCount": 425,
+    "eciCoverage": 0.2917647058823529,
+    "sweBenchCoverage": 0.058823529411764705
   },
   "unmatchedEciCount": 75,
   "perVendor": [
@@ -26,7 +26,7 @@
     {
       "id": "alibaba",
       "count": 55,
-      "flagship": "alibaba--qwen3.8-max"
+      "flagship": "alibaba--qwen4-max"
     },
     {
       "id": "zhipuai",
@@ -80,13 +80,13 @@
     },
     {
       "id": "anthropic",
-      "count": 17,
+      "count": 15,
       "flagship": "anthropic--claude-fable-5-2"
     },
     {
       "id": "google",
       "count": 42,
-      "flagship": "google--gemini-4-carbon"
+      "flagship": "google--gemini-4-neon"
     },
     {
       "id": "xai",
@@ -106,7 +106,7 @@
     {
       "id": "cohere",
       "count": 19,
-      "flagship": "cohere--north-small-translate-09-2026"
+      "flagship": "cohere--north-small-translate-1.0"
     },
     {
       "id": "ai21",
@@ -131,7 +131,7 @@
     {
       "id": "thinkingmachines",
       "count": 40,
-      "flagship": "thinkingmachines--thinkingmachines-inkling-small-peft-262144"
+      "flagship": "thinkingmachines--thinkingmachines-inkling-2-mini"
     },
     {
       "id": "inception",
@@ -161,6 +161,6 @@
   ],
   "warnings": [
     "models.dev 缺少 provider「llama」（门派 meta）",
-    "Epoch 有 75 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.84)、qwen36max(149.86)、grok4(146.91)、o4mini(145.21)、grok4fast(144.32)、qwen3max(142.43)、o1(141.16)、claude37sonnet(141.03)、o3mini(140.63)、grok3mini(139.88)、grok3(137.55)、gpt45(136.47)"
+    "Epoch 有 75 个 ECI 条目未匹配到本地模型，最高分示例：beam10(150.85)、qwen36max(149.88)、grok4(146.97)、o4mini(145.28)、grok4fast(144.32)、qwen3max(142.45)、o1(141.18)、claude37sonnet(141.02)、o3mini(140.67)、grok3mini(139.86)、grok3(137.49)、qwq32b(136.48)"
   ]
 }
